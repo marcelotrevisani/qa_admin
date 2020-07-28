@@ -1,0 +1,41 @@
+.canvas {
+  height: 100%;
+  margin: 0;
+}
+
+#body_menu {
+  display: flex;
+}
+
+#header_menu {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 10px;
+  align-items: center;
+}
+
+#content_menu{
+  display: flex;
+  flex-grow: 1;
+}
+
+#layer_menu{
+  height: 100%;
+}
+
+#tray_menu {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#tray_item_menu {
+  padding: 5px;
+  margin: 0px 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
